@@ -1,0 +1,126 @@
+/* CSS files add styling rules to your content */
+/* main body style and color */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+/* main title style and color */
+h1 {
+  font-style: normal;
+  font-family: Bradley Hand;
+  font-size: 50px;
+  color: black;
+}
+
+/* each paragraph's title style and color */
+h2.title{
+  font-style: normal;
+  font-family: Bradley Hand;
+  font-size: 25px;
+  color: black;
+}
+
+/* paragraph using border style */
+p.first{
+  border-style: double;
+  font-family: courier;
+  text-align: center;
+}
+
+/* paragraph using margin style */
+p.second {
+  margin: 35px;
+}
+
+/* paragraph using style padding and color */
+div.third {
+  border: 1px solid black;
+  background-color: #FFC5EB;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  position: relative;
+}
+
+/* image position, style and color */
+div.container {
+  position: relative;
+  text-align: center;
+  color: black;
+/*   position: static; */
+}
+
+/* img botton rigth text style and color */
+div.center {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #EC7992;
+  background-color: white;
+  font-family: Marker Felt;
+}
+
+/* biki's image style */
+img.biki {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+  high: 250px;
+  float: middle;
+}
+
+/* grid paragraph style and color */
+div.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+/* grid paragraph style and color */
+div.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* main: using flex style and color */
+main {
+  width: 300px;
+  height: 350px;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: #1F7D6A;
+}
+
+/* paragraph using flex style */
+p.flex {
+  width: 30%;
+  padding: 1.5%;
+}
+
+/* other picture button color and style */
+button.otherP {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #E5A554;
+  padding: 7px 10px;
+  font-size:16px;
+  font-family: Chalkduster;
+}
+
+/* other picture button hover color and style */
+button.otherP:hover {
+  background-color: #FDC379;
+  color: white;
+}
